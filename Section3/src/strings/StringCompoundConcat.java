@@ -1,4 +1,4 @@
-/*
+package strings;/*
 Learn Programming Academy's Java 1Z0-815 Certification Exam Course
 Section 3: Working with Java Primitive Data Types and String APIs
 Topic: Create and Manipulate Strings
@@ -44,14 +44,14 @@ public class StringCompoundConcat {
         System.out.println("charSequenceObject = " + charSequenceObject);
 
         // String concatenation when right hand object is not a String,
-// or CharSequence.  We created ImmutableString class in the last topic.
+// or CharSequence.  We created Strings.ImmutableString class in the last topic.
         Object someOtherObject = new ImmutableString();
         String compoundString4 = "object ";
         compoundString4 += someOtherObject;
         System.out.println("compoundString4 = " + compoundString4);
 
         // String concatenation when left hand object is not a String
-        // We created ImmutableString class in the last topic.
+        // We created Strings.ImmutableString class in the last topic.
         someOtherObject = new ImmutableString();
         someOtherObject += helloString;
         System.out.println("someOtherObject = " + someOtherObject);
