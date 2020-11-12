@@ -29,7 +29,7 @@
 <li> Any assignment of a literal will refer to the same String in this pool.</li>
 <li> You can force a string to be added to the pool by calling the intern() method on the String object.</li>
 <li> Strings are immutable, any methods that seem to operate on a String are actually creating new String, and these new String need to be assigned to the same variable (self assignment) or assigned to a new variable which represents a reference to the new String.</li>
-<li> Strings are immutable, any method you use that returns a value needs to be assigned to a different String reference or back to the current one. StringBuilders ARE mutable.</li>
+<li> Strings are immutable, any method you use that returns a value needs to be assigned to a different String reference or back to the current one. stringBuilders ARE mutable.</li>
 <li> String constructors and valueOf methods use a start offset (inclusive) and an end offset (exclusive).</li>
 <li> Methods that use regular expressions are:
     <ul>

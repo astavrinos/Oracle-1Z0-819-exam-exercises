@@ -1,4 +1,4 @@
-/*
+package scope;/*
 Learn Programming Academy's Java 1Z0-815 Certification Exam Course
 Section 3: Working with Java Primitive Data Types and String APIs
 Topic: Identify the Scope of a variable.
@@ -19,7 +19,7 @@ public class Person {
         // Constructors are perfect examples of how a method parameter
         // name can have same name as class or instance variable name.
 
-        // In this constructor,  the Person instance age does not get
+        // In this constructor,  the scope.Person instance age does not get
         // set at all, because age not qualified by 'this'.
         // This is a common mistake and may be tested on exam
         age = age;

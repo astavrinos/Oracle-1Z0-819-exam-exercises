@@ -1,4 +1,4 @@
-/*
+package vars;/*
 Learn Programming Academy's Java 1Z0-815 Certification Exam Course
 Section 3: Working with Java Primitive Data Types and String APIs
 Topic: Local Variable Type Inference
@@ -8,7 +8,7 @@ Sub-Topic: Out of the Ordinary
 import java.util.ArrayList;
 import java.util.Arrays;
 
-// You can name your class Var...
+// You can name your class vars.Var...
 public class Var {
 
     public static void main(String[] args) {

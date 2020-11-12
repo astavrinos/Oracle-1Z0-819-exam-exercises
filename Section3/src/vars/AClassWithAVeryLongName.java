@@ -1,4 +1,4 @@
-/*
+package vars;/*
 Learn Programming Academy's Java 1Z0-815 Certification Exam Course
 Section 3: Working with Java Primitive Data Types and String APIs
 Topic: Local Variable Type Inference
@@ -22,7 +22,7 @@ public class AClassWithAVeryLongName {
     }
 
     public String toString() {
-        return "AClassWithAVeryLongName{" +
+        return "vars.AClassWithAVeryLongName{" +
                 "name='" + name + '\'' +
                 '}';
     }

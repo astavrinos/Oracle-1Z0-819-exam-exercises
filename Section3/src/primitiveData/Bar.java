@@ -1,4 +1,4 @@
-/*
+package primitiveData;/*
 Learn Programming Academy's Java 1Z0-815 Certification Exam Course
 Section 3: Working with Java Primitive Data Types and String APIs
 Topic: Declare and Initialize Variables
@@ -35,14 +35,14 @@ public class Bar {
 
         // These class variable references do not produce compile errors
         System.out.println("----------  Class Variables set to default values --------------");
-        System.out.println("Bar.staticByte=" + Bar.staticBarByte);
-        System.out.println("Bar.staticChar=" + Bar.staticBarChar);
-        System.out.println("Bar.staticShort=" + Bar.staticBarShort);
-        System.out.println("Bar.staticInt=" + Bar.staticBarInt);
-        System.out.println("Bar.staticLong=" + Bar.staticBarLong);
-        System.out.println("Bar.staticFloat=" + Bar.staticBarFloat);
-        System.out.println("Bar.staticDouble=" + Bar.staticBarDouble);
-        System.out.println("Bar.staticBoolean=" + Bar.staticBarBoolean);
+        System.out.println("primitiveData.Bar.staticByte=" + Bar.staticBarByte);
+        System.out.println("primitiveData.Bar.staticChar=" + Bar.staticBarChar);
+        System.out.println("primitiveData.Bar.staticShort=" + Bar.staticBarShort);
+        System.out.println("primitiveData.Bar.staticInt=" + Bar.staticBarInt);
+        System.out.println("primitiveData.Bar.staticLong=" + Bar.staticBarLong);
+        System.out.println("primitiveData.Bar.staticFloat=" + Bar.staticBarFloat);
+        System.out.println("primitiveData.Bar.staticDouble=" + Bar.staticBarDouble);
+        System.out.println("primitiveData.Bar.staticBoolean=" + Bar.staticBarBoolean);
 
         // These object instance variable references do not produce compile errors
         System.out.println("----------  Instance Variables set to default values --------------");

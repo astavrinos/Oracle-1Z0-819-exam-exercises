@@ -1,8 +1,10 @@
-/*
+package scope;/*
 Learn Programming Academy's Java 1Z0-815 Certification Exam Course
 Section 3: Working with Java Primitive Data Types and String APIs
 Topic: Identify the Scope of a variable
 */
+
+import scope.Person;
 
 public class TestPerson {
     public static void main(String[] args) {
