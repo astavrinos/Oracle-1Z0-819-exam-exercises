@@ -1,5 +1,3 @@
-package arrays;
-
 /*
 Learn Programming Academy's Java 1Z0-815 Certification Exam Course
 Section 5: Working with Java Arrays
